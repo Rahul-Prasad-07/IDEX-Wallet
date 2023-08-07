@@ -1,16 +1,12 @@
 {
-  "name": "idex-wallet",
+  "name": "IDEX-Wallet",
   "version": "1.0.0",
-  "description": "Decentralized wallet for I-DEX (Inter-planetary decentralized exchange)",
-  "main": "Wallet.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "Rahul Prasad",
-  "license": "ISC",
+  "main": "index.js",
+  "repository": "https://github.com/Rahul-Prasad-07/IDEX-Wallet.git",
+  "author": "Rahul-Prasad-07 <prasadrahulprn3@gmail.com>",
+  "license": "MIT",
   "dependencies": {
-    "dotenv": "^16.3.1",
-    "web3": "^4.0.3"
+    "ethereum-cryptography": "^1.0.3",
+    "ethers": "^6.7.0"
   }
 }
